@@ -1,7 +1,5 @@
 node_modules
 .tmp
-.idea
-.iml
 .DS_Store
 package-lock.json
 yarn.lock
