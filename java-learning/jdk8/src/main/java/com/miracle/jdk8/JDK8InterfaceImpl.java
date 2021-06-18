@@ -1,4 +1,4 @@
-package com.miracle;
+package com.miracle.jdk8;
 
 public class JDK8InterfaceImpl implements JDK8Interface {
     @Override

@@ -1,4 +1,4 @@
-package com.miracle;
+package com.miracle.jdk8;
 
 /**
  * JDK 1.8开始 支持使用static和default修饰 可以写方法体，不需要子类重写
