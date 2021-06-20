@@ -1,4 +1,4 @@
-package com.miracle;
+package com.miracle.lambda;
 
 import com.miracle.jdk8.JDK8ParamFunctionalInterface;
 

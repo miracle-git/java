@@ -1,4 +1,4 @@
-package com.miracle;
+package com.miracle.lambda;
 
 import com.miracle.service.OrderService;
 import com.miracle.service.OrderServiceImpl;
