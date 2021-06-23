@@ -27,6 +27,10 @@ public class UserInfo {
         this.age = age;
     }
 
+    public String detail() {
+        return "name: " + this.getName() + ", age: " + this.getAge();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
