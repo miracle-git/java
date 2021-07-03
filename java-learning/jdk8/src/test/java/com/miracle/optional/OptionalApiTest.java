@@ -3,7 +3,7 @@ package com.miracle.optional;
 import java.util.Optional;
 
 /**
- * 使用Optional相关api(of,ofNullable,isPresent,ifPresent,orElse,orElseGet,filter,map)
+ * 使用Optional相关api(of,ofNullable,isPresent,ifPresent,orElse,orElseGet,filter)
  * */
 public class OptionalApiTest {
     public static void main(String[] args) {

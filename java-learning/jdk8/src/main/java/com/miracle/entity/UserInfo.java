@@ -1,11 +1,21 @@
 package com.miracle.entity;
 
+import com.miracle.aop.Logger;
+
 import java.util.Objects;
 
+@Logger
 public class UserInfo {
     private String name;
     private int age;
 
+    @Logger
+    public String nickName;
+
+    public UserInfo() {
+    }
+
+    @Logger
     public UserInfo(String name, int age) {
         this.name = name;
         this.age = age;
@@ -27,8 +37,15 @@ public class UserInfo {
         this.age = age;
     }
 
+    @Deprecated
     public String detail() {
         return "name: " + this.getName() + ", age: " + this.getAge();
+    }
+
+    @Logger
+    private String profile(boolean isPublic) {
+        if (isPublic) return detail();
+        return detail() + ", nickName: " + this.nickName;
     }
 
     @Override
