@@ -16,5 +16,7 @@ public class Main {
         AbstractFactoryClient.run();
         // 原型模式
         PrototypeClient.run();
+        // 建造者模式
+        BuilderClient.run();
     }
 }

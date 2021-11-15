@@ -40,7 +40,11 @@ public class Person implements Cloneable, Serializable {
 
     @Override
     public String toString() {
-        return "Person{name=" + name + ", age=" + age + ", list=" + list + "}";
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", list=" + list +
+                '}';
     }
 
     @Override
