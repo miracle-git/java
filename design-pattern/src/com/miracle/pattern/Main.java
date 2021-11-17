@@ -20,5 +20,7 @@ public class Main {
         BuilderClient.run();
         // 适配器模式
         AdapterClient.run();
+        // 桥接模式
+        BridgeClient.run();
     }
 }
