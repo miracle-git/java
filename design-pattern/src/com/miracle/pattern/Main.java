@@ -18,5 +18,7 @@ public class Main {
         PrototypeClient.run();
         // 建造者模式
         BuilderClient.run();
+        // 适配器模式
+        AdapterClient.run();
     }
 }
