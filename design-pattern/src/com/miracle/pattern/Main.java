@@ -22,5 +22,7 @@ public class Main {
         AdapterClient.run();
         // 桥接模式
         BridgeClient.run();
+        // 组合模式
+        CompsiteClient.run();
     }
 }
