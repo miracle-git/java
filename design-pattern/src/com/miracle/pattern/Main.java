@@ -24,5 +24,7 @@ public class Main {
         BridgeClient.run();
         // 组合模式
         CompsiteClient.run();
+        // 装饰器模式
+        DecoratorClient.run();
     }
 }
