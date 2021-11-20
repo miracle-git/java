@@ -30,5 +30,7 @@ public class Main {
         ProxyClient.run();
         // 外观模式
         FacadeClient.run();
+        // 享元模式
+        FlyweightClient.run();
     }
 }
