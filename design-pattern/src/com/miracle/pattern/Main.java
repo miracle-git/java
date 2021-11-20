@@ -28,5 +28,7 @@ public class Main {
         DecoratorClient.run();
         // 代理模式
         ProxyClient.run();
+        // 外观模式
+        FacadeClient.run();
     }
 }
