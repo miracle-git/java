@@ -26,5 +26,7 @@ public class Main {
         CompsiteClient.run();
         // 装饰器模式
         DecoratorClient.run();
+        // 代理模式
+        ProxyClient.run();
     }
 }
