@@ -36,5 +36,7 @@ public class Main {
         StrategyClient.run();
         // 模板方法模式
         TemplateMethodClient.run();
+        // 观察者模式
+        ObserverClient.run();
     }
 }
