@@ -32,5 +32,7 @@ public class Main {
         FacadeClient.run();
         // 享元模式
         FlyweightClient.run();
+        // 策略模式
+        StrategyClient.run();
     }
 }
