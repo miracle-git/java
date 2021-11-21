@@ -34,5 +34,7 @@ public class Main {
         FlyweightClient.run();
         // 策略模式
         StrategyClient.run();
+        // 模板方法模式
+        TemplateMethodClient.run();
     }
 }
