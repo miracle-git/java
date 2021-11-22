@@ -40,5 +40,7 @@ public class Main {
         ObserverClient.run();
         // 责任链模式
         ResponsibilityChainClient.run();
+        // 命令模式
+        CommandClient.run();
     }
 }
