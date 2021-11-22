@@ -42,5 +42,7 @@ public class Main {
         ResponsibilityChainClient.run();
         // 命令模式
         CommandClient.run();
+        // 迭代器模式
+        IteratorClient.run();
     }
 }
