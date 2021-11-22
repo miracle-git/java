@@ -38,5 +38,7 @@ public class Main {
         TemplateMethodClient.run();
         // 观察者模式
         ObserverClient.run();
+        // 责任链模式
+        ResponsibilityChainClient.run();
     }
 }
