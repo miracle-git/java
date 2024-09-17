@@ -1,2 +1,2 @@
 # java
-including java knowledge learning: data structure &amp; algorithm, design patterns &amp; principles.
+including java knowledge learning: data structure &amp; algorithm, System desigining &amp; principles.
